@@ -10,12 +10,13 @@ import pandas as pd      # Pandas = creates and styles data tables (like Excel i
 
 # ── STEP 2: PAGE SETUP ───────────────────────────────────────────────────────
 # set_page_config controls the browser tab text and the small icon next to it
-st.set_page_config(page_title="PharmaGuard AI", page_icon="💊", layout="centered")
-st.title("💊 PharmaGuard AI")  # st.title = big bold heading displayed on the page
+st.set_page_config(page_title="PharmaGuard", page_icon="💊", layout="centered")
+st.title("💊 PharmaGuard")  # st.title = big bold heading displayed on the page
 st.caption("Drug-Drug Interaction Checker for Pharmacy Students & Pharmacists")
 st.sidebar.title("About")
 st.sidebar.write("Developer: Soham Deshmukh")
-st.sidebar.write("B.Pharm → M.Tech Biomedical Devices (IIT Indore)")
+st.sidebar.write("B.Pharm Graduate")
+st.sidebar.write("M.Tech Biomedical Devices | IIT Indore")
 st.sidebar.write("Version: 1.0")
 
 # ── STEP 3: DRUG INTERACTION DATABASE ────────────────────────────────────────
